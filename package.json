@@ -1,6 +1,6 @@
 {
   "name": "dir-contents-object",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Convert the contents of a directory to an object",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
