@@ -618,7 +618,7 @@ escape-string-regexp@1.0.5, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-airbnb-base@^14.1.0:
+eslint-config-airbnb-base@^14.2.0:
   version "14.2.0"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-14.2.0.tgz#fe89c24b3f9dc8008c9c0d0d88c28f95ed65e9c4"
   integrity sha512-Snswd5oC6nJaevs3nZoLSTvGJBvzTfnBqOIArkf3cbyTyq9UD79wOk8s+RiL6bhca0p/eRO6veczhf6A/7Jy8Q==
@@ -627,12 +627,12 @@ eslint-config-airbnb-base@^14.1.0:
     object.assign "^4.1.0"
     object.entries "^1.1.2"
 
-eslint-config-airbnb-typescript-lite@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-typescript-lite/-/eslint-config-airbnb-typescript-lite-0.2.0.tgz#2d1b9bcfd128869b6f40ec979368807173df618d"
-  integrity sha512-Q8DGG4PmCPWESPRKL3ZUqmECMFrEtMztkiSPCMP+rHZVwiu1pazWAwWBhR20zZAKfJOHtUA0pVq9mg+PTpkHmQ==
+eslint-config-airbnb-typescript-lite@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-typescript-lite/-/eslint-config-airbnb-typescript-lite-9.0.0.tgz#159b81a27931d9c6394cc9c1075b875b55c85592"
+  integrity sha512-YcM2yTDrb/gfSWopy/abk37eZXuN1QYR3Jb6J8M9k897QnWEGl/6fobt8IJ787QPd6iIvrNKBtJjXPH159FwHg==
   dependencies:
-    eslint-config-airbnb-base "^14.1.0"
+    eslint-config-airbnb-base "^14.2.0"
 
 eslint-import-resolver-node@^0.3.3:
   version "0.3.4"
