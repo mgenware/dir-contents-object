@@ -1,5 +1,5 @@
 import * as mfs from 'm-fs';
-import * as nodepath from 'path';
+import * as np from 'path';
 
 export default async function getObject(
   dir: string,
@@ -9,7 +9,7 @@ export default async function getObject(
   await Promise.all(
     paths.map(async (info) => {
       const name = info.path;
-      const fullPath = nodepath.join(dir, name);
+      const fullPath = np.join(dir, name);
       if (info.isFile) {
         obj[name] = await mfs.readTextFileAsync(fullPath);
       } else {

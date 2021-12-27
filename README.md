@@ -9,7 +9,7 @@ Convert the contents of a directory to an object.
 ## Installation
 
 ```sh
-yarn add dir-contents-object
+npm i dir-contents-object
 ```
 
 ## Usage
